@@ -7,7 +7,9 @@ load(
     "cc_library_with_android_deps",
     "tf_cc_test",
     "tf_copts",
+    "tf_gen_op_wrappers_cc",
     "transitive_hdrs",
+
 )
 load("//tensorflow:tensorflow.default.bzl", "filegroup", "tf_gen_op_wrappers_cc")
 load("//tensorflow/core/platform:rules_cc.bzl", "cc_library")

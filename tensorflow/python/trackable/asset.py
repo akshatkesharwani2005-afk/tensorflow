@@ -17,6 +17,7 @@ import os
 
 from tensorflow.python.eager import context
 from tensorflow.python.framework import dtypes
+from tensorflow.python.framework import graph_to_function_def
 from tensorflow.python.framework import ops
 from tensorflow.python.framework import tensor_conversion_registry
 from tensorflow.python.lib.io import file_io
